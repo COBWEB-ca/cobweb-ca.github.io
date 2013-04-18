@@ -11,5 +11,4 @@ layout: index
 * [COBWEB INTRODUCTION 2013](https://docs.google.com/file/d/0B2wHRfk39RftRzhNY1NKVHhncU0/edit?usp=sharing)
 * [COBWEB_Adaptation flyer SS general](https://docs.google.com/file/d/0B2wHRfk39RftOUxoTGwxQTQwNTA/edit?usp=sharing)
 * [On Evol Computing from Campo](https://docs.google.com/file/d/0B2wHRfk39RftYWRQc1dvZW9KUHM/edit?usp=sharing)
-* test
 
