@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="cobwebsim">
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>COBWEB</title>
     <link rel="shortcut icon" type="image/ico" href="content/images/favicon.ico">
     <link rel='stylesheet' href='content/stylesheets/style.css'/>
@@ -47,7 +48,7 @@
         <div class="intro-text">
             <div class="intro-lead-in">This is COBWEB</div>
             <div class="intro-heading">Large scale ecological simulation.</div>
-            <a href="/wiki" class="page-scroll btn btn-xl" style="color: black">go to wiki</a>
+            <a href="https://github.com/COBWEB-ca/cobweb2/wiki" class="page-scroll btn btn-xl" style="color: black">go to wiki</a>
         </div>
     </div>
 </header>
@@ -123,10 +124,10 @@
         </div>
         <div class="row">
             <div class="col-md-6 download-item">
-                <a href="" class="download-link" data-toggle="modal">
+                <a href="https://github.com/COBWEB-ca/cobweb2/releases/latest" class="download-link" data-toggle="modal">
                     <div class="download-hover">
                         <div class="download-hover-content">
-                            <i class="fa fa-download fa-3x" onclick="downloadCOBWEB()"></i>
+                            <i class="fa fa-download fa-3x"></i>
                         </div>
                     </div>
                     <img src="content/images/landing/COBWEB-thumb.jpg" class="img-responsive" alt="">
@@ -134,14 +135,14 @@
                 <div class="download-caption">
                     <h4>COBWEB</h4>
                     <p class="text-muted">The standard 2D COBWEB. Download and double click the jar file to run.
-                        Requires latest version of Java. Get Java here: https://www.java.com/en/</p>
+                        Requires latest version of Java. <a href="https://java.com/download">Get Java here: https://java.com/download</a></p>
                 </div>
             </div>
             <div class="col-md-6 download-item">
-                <a href="" class="download-link" data-toggle="modal">
+                <a href="content/resources/COBWEB3D.zip" class="download-link" data-toggle="modal">
                     <div class="download-hover">
                         <div class="download-hover-content">
-                            <i class="fa fa-download fa-3x" onclick="downloadCOBWEB3D()"></i>
+                            <i class="fa fa-download fa-3x"></i>
                         </div>
                     </div>
                     <img src="content/images/landing/COBWEB3D-thumb.jpg" class="img-responsive" alt="">
@@ -228,14 +229,6 @@
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="content/scripts/classie.js"></script>
 <script src="content/scripts/cbpAnimatedHeader.js"></script>
-<script src="content/scripts/scroll.js"></script>
-<script>
-    function downloadCOBWEB(){
-        window.location = "content/resources/COBWEB.jar";
-    }
-    function downloadCOBWEB3D(){
-        window.location = "content/resources/COBWEB3D.zip";
-    }
-</script>
+<script src="content/scripts/scroll.js">
 </body>
 </html>
