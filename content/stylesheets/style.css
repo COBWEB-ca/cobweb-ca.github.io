@@ -218,10 +218,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../images/landing/header-bg.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
+  background: url('../images/landing/header-bg.jpg') no-repeat scroll center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -360,6 +357,19 @@ section h3.section-subheading {
     margin: 0 0 30px;
   }
 }
+
+#download .download-item .download-simulation-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: left;
+  padding: 25px;
+}
+#download .download-item .download-simulation-caption h4 {
+  text-transform: none;
+  margin-bottom: 2%;
+}
+
 .timeline {
   list-style: none;
   padding: 0;
@@ -547,10 +557,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #222;
-  background-image: url('../images/landing/map-image.png');
-  background-position: center;
-  background-repeat: no-repeat;
+  background: #222 url('../images/landing/map-image.png') no-repeat center;
 }
 section#contact .section-heading {
   color: white;
@@ -608,14 +615,12 @@ footer {
 footer span.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   text-transform: none;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   text-transform: none;
 }
 ul.social-buttons {
